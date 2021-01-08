@@ -9,7 +9,7 @@ public class Alice {
         System.out.println(alice);
         System.out.println("What word would you like to find in the above passage:");
         String userIn = input.nextLine();
-        String wordToFind;
+        int wordToFind;
         alice.toLowerCase();
         wordToFind = alice.indexOf(userIn);
         System.out.println(wordToFind);
